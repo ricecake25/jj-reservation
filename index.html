@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>전주대학교 시설 예약 시스템</title>
-  </head>
-  <body>
+    <!-- React 및 Babel 라이브러리 불러오기 -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
     <div id="root"></div>
-    <!-- 실제 실행을 위해서는 빌드 도구가 필요하지만, 간단한 확인을 위해 구조를 잡습니다 -->
-  </body>
+
+    <script type="text/babel">
+        const { useState, useCallback } = React;
+
+        // --- 여기에 기존 App.jsx의 모든 코드를 복사해서 넣습니다 ---
+        // (COLLEGES, FACILITIES, App 함수 등 모든 내용)
+        
+        // 마지막 줄에 아래 코드를 추가하여 실행합니다.
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
 </html>
